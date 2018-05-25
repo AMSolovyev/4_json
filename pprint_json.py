@@ -6,11 +6,11 @@ DEFAULT_FILE_NAME = 'alco_shops.json'
 DEFAULT_FILE_ENCODING = 'utf-8'
 DEFAULT_INDENT = 4
 
-def load_data_from_json(filepath, file_encoding):
-        with open(filepath, 'r', encoding=file_encoding) as file_handler:
-            return json.load(file_handler)
+def load_data(filepath, file_encoding):
+    with open(filepath, 'r', encoding=file_encoding) as file_handler:
+        return json.load(file_handler)
 
-def printer_json(data):
+def pretty_print_json(data):
     return json.dumps(data, indent=DEFAULT_INDENT, ensure_ascii=False)
 
 if __name__== '__main__':
@@ -26,5 +26,5 @@ if __name__== '__main__':
         print('Файл {} не существует'.format(work_file))
         sys.exit(1)
 
-    data_from_json = load_data_from_json(work_file, DEFAULT_FILE_ENCODING)
-    print(printer_json(data_from_json))
+    data_from_json = load_data(work_file, DEFAULT_FILE_ENCODING)
+    print(pretty_print_json(data_from_json))

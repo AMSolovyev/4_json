@@ -1,5 +1,5 @@
 <h1>Prettify JSON </h1>
-<pre> Outputs the contents of the json-file to the console in a convenient format (pretty print)  </pre>> 
+<pre> Outputs the contents of the json-file to the console in a convenient format (pretty print)  </pre> 
 
 <h1> Quickstart </h1>
 

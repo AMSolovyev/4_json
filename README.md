@@ -15,7 +15,7 @@ You can specify a different file name.
 You can print data like this: 
 
  
-{
+```{
      "Address": "Мартеновская улица, дом 23",
                     "AdmArea": "Восточный административный округ",
                     "IsNetObject": "нет",
@@ -45,9 +45,9 @@ You can print data like this:
                     "District": "район Новогиреево",
                     "PublicPhone": [
                         {
-}
+}```
 
 
 # Project Goals 
 The code is written for educational purposes. Training course for web-developers - 
-[DEVMAN.org](https://devman.org))
+[DEVMAN.org](https://devman.org)

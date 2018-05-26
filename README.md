@@ -1,19 +1,20 @@
-<h1>Prettify JSON </h1>
-<pre> Outputs the contents of the json-file to the console in a convenient format (pretty print)  </pre> 
+# Prettify JSON 
 
-<h1> Quickstart </h1>
+Outputs the contents of the json-file to the console in a convenient format (pretty print). 
 
-<pre> The example of script launch on Linux, Python 3.5 and you need alco_shops.json, which can be downloaded from https://data.mos.ru/ or
- https://devman.org/media/filer_public/1d/32/1d32132e-efa4-4a6c-bd32-312acc3710ad/alco_shops.json
-You can specify a different file name.</pre>
+# Quickstart
 
-<h1> How to use </h1>
+The example of script launch on Linux, Python 3.5 and you need alco_shops.json, which can be downloaded from [https://data.mos.ru/](https://data.mos.ru/)or
+ [https://devman.org/media/filer_public/1d/32/1d32132e-efa4-4a6c-bd32-312acc3710ad/alco_shops.json](https://devman.org/media/filer_public/1d/32/1d32132e-efa4-4a6c-bd32-312acc3710ad/alco_shops.json)
+You can specify a different file name.
 
-<pre> $ python3 pprint_json.py </pre>
+# How to use 
 
-<pre> You can print data like this: <pre>
+``` $ python3 pprint_json.py ```
 
-<pre > 
+You can print data like this: 
+
+ 
 {
      "Address": "Мартеновская улица, дом 23",
                     "AdmArea": "Восточный административный округ",
@@ -45,7 +46,8 @@ You can specify a different file name.</pre>
                     "PublicPhone": [
                         {
 }
-</pre>
 
-<h1> Project Goals</h1>
-<pre> The code is written for educational purposes. Training course for web-developers - DEVMAN.org </pre>
+
+# Project Goals 
+The code is written for educational purposes. Training course for web-developers - 
+[DEVMAN.org](https://devman.org))

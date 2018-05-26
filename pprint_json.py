@@ -10,8 +10,8 @@ def load_data(filepath, file_encoding):
     with open(filepath, 'r', encoding=file_encoding) as file_handler:
         return json.load(file_handler)
 
-def pretty_print_json(data):
-    return json.dumps(data, indent=DEFAULT_INDENT, ensure_ascii=False)
+def pretty_print_json(json_content):
+    return json.dumps(json_content, indent=DEFAULT_INDENT, ensure_ascii=False)
 
 if __name__== '__main__':
     if len(sys.argv) == 1:

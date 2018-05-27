@@ -23,4 +23,7 @@ if __name__ == '__main__':
         exit('Такого файла не существует')
 
     data_from_json = load_data(file_path)
-    print(prettify_json(data_from_json))
+    if data_from_json is None:
+        exit('there is not decoded')
+    else:
+        print(prettify_json(data_from_json))

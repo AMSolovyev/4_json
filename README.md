@@ -10,7 +10,7 @@ You can specify a different file name.
 
 # How to use 
 
-``` $ python3 pprint_json.py ```
+``` $ python3 pprint_json.py 'name file.json'```
 
 You can print data like this: 
 
